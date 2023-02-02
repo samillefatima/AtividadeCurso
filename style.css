@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #F19CA2;
+    padding: 40px;
+    font-size: 35px;
+    text-align: center;
+    color: #F1E6E4;
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+    background-color: #F8D7D0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+aside ol li {
+    list-style: none;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: #A4DFFF;
+    height: 530px;
+}
+section article{
+    flex: 7;
+    background-color: #A4DFFF;
+}
+section aside {
+    flex: 1;
+    background-color: #89CCD3;
+    color: #F1E6E4;
+}
+section article p{
+    padding: 10px;
+    text-align: justify;
+}
+section aside ol li{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+nav a{
+    text-decoration: none;
+    color:darkorchid;
+    transition: 0.5s all ease-in-out;
+}
+nav a:hover{
+    font-size: 25px;
+    background-color: #E8B3AE;
+    color: white;
+     transform: scale(1.1); 
+ }
+img {
+    width: 400px;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.container {
+   display: flex;
+   justify-content:center ;
+}
+table, td,th {
+    border: 1px darkorchid solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+   
+}
+table {
+    background-color: #F1E6E4;
+    margin: 30px;
+    width: 500px;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+}
+form{
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+ width: 500px;
+ padding: 30px 40px;
+ box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+ margin: 50px;
+ background-color:#F1E6E4;
+}
+legend {
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 2px 5px #acc1ed;
+}
+label {
+    font-size: x-large;
+    font-style: italic;
+}
+label input {
+    padding: 16px;
+    width: 400px;
+   background-color: #eacdc967; 
+   font-size: 15px;
+   border-radius: 5px;
+}
+input.botao{
+    padding: 15px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+   border-radius: 5px;
+   border: 1px solid #F19CA2;
+   background-color:#E8B3AE;
+   transition: 0.5s all ease-in-out;
+
+}
+input.botao:hover{
+    background-color: #F19CA2 ;
+    color: white;
+    transform: scale(1.1); 
+}
+aside a {
+    position: relative;
+  color: #F1E6E4;
+}
+
+
+ 
