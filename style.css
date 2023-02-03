@@ -40,7 +40,7 @@ section article{
 section aside {
     flex: 1;
     background-color: #89CCD3;
-    color: #F1E6E4;
+    color: #fefefe;
 }
 section article p{
     padding: 10px;
@@ -66,21 +66,43 @@ nav a:hover{
     background-color: #E8B3AE;
     color: white;
      transform: scale(1.1); 
+}
+.container {
+    display: flex;
+    justify-content:center ;
+    gap: 40px;
  }
 img {
-    width: 400px;
+     width: 300px;;
     margin-top: 20px;
-    transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
-img:hover{
+img.imagemSol{
+    transition: all 0.5s ease-in-out;
+}
+img.imagemSol:hover{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-.container {
-   display: flex;
-   justify-content:center ;
+img.imagemCeu{
+    transition: all 0.5s ease-in-out;
+    border: 10px solid transparent;
+   
 }
+img.imagemCeu:hover{
+    border: 10px solid #F19CA2 ;
+    border-radius: 30%;
+}
+img.imagemPraia{
+    transition: all 0.5s ease-in-out;
+}
+    
+img.imagemPraia:hover{
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    }
+
+
 table, td,th {
     border: 1px darkorchid solid;
     border-collapse: collapse;
@@ -139,7 +161,7 @@ input.botao:hover{
 }
 aside a {
     position: relative;
-  color: #F1E6E4;
+  color: #fefefe;
 }
 
 
